@@ -1,0 +1,109 @@
+.header a, a:hover 
+{
+    color: #f0ad4e;
+    text-decoration: none;
+
+}
+
+.header h1 
+{
+ letter-spacing: 15px;
+ font-size: 300%;
+}
+
+.header p
+{
+ color: white !important;
+ font-size: 90%;
+ letter-spacing: 3px;
+}
+
+.films_block
+{
+    text-align: center;
+    
+}
+
+.films_block img
+{
+     margin-bottom: 5%;
+     border-radius: 5px;
+     border:solid 5px grey;
+}
+
+.film_label
+{
+    padding: 2px;
+    margin-bottom:5px;
+}
+
+.panel
+{
+    border:none;
+}
+
+.panel-body
+{
+    color:rgb(20, 20, 24);
+}
+
+.panel-info>.panel-heading
+{
+    color:white;
+    background:rgb(255, 0, 0);
+}
+
+.sidebar-header
+{
+    font-size: 120%;
+    letter-spacing: 2px;
+}
+
+.form-control
+{
+    font-size: 14px;
+}
+
+.input-lg
+{
+    font-size:14px;
+}
+
+.form-control
+{
+    border-radius:0px;
+}
+
+.input-lg
+{
+    font-size: 14px;
+}
+
+ .nav-pills>li>a:hover {
+    background-color: #337ab7;
+    
+}
+
+.input-group-btn
+{
+    background-color:rgb(20, 20, 24)red;
+}
+#imagesandlogin{
+  width: 100%;
+}
+.images{
+    width: 80%;
+    float: right;
+    position:fixed;
+    top:20%; 
+    bottom:40%;
+    right: 10%;
+}
+.loginside{
+    width:20%;
+    float: left;
+    left:10%;
+    right:10%;
+    background-attachment: ;
+
+}
