@@ -12,17 +12,20 @@
 </head>
 <body>
 
-  
-  <form action="/save_product" method="POST">
+  <br>
+  <form action="/ " method="POST">
     @csrf
-    <label for="">Name</label>
+    <label for="">Cars Name</label>
     <input type="text" name="name">
 
+    <br>
+    <br>
 
-    <label for="">Price</label>
+    <label for="">Cars Price</label>
     <input type="text" name="price">
 
-    <button type="submit">OK</button>
+    <br>
+    <button class="btn btn-primary" type="submit">OK</button>
   </form>
 
 </body>

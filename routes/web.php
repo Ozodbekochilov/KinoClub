@@ -1,5 +1,8 @@
 <?php
 
+use App\Models\Cars;
+use App\Models\Product;
+use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -16,3 +19,35 @@ use Illuminate\Support\Facades\Route;
 Route::view('ozod','welcome');
 
 Route::view('table','table');
+
+Route::post('save_product', function(Request $request)
+{
+    Product::create([
+        'name' => $request->name,
+        'price' => $request->price,
+    ]);
+    return 'Ismoil norm';
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+Route::view('/ismoil','ismoil');
+
+Route::post('/idea', function(Request $request)
+{
+    Cars::create([
+        'name' => $request->name,
+        'price' => $request->price,
+    ]);
+    return 'Good';
+});
