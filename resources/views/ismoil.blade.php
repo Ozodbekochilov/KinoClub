@@ -13,7 +13,7 @@
 <body>
 
   <br>
-  <form action="/ " method="POST">
+  <form style="padding-left:20px;" action="/ " method="POST">
     @csrf
     <label for="">Cars Name</label>
     <input type="text" name="name">
